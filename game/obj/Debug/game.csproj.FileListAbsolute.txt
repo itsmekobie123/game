@@ -1,0 +1,6 @@
+C:\Users\Fujitsu\Documents\SharpDevelop Projects\game\game\obj\Debug\game.csprojResolveAssemblyReference.cache
+C:\Users\Fujitsu\Documents\SharpDevelop Projects\game\game\bin\Debug\game.exe.config
+C:\Users\Fujitsu\Documents\SharpDevelop Projects\game\game\bin\Debug\game.exe
+C:\Users\Fujitsu\Documents\SharpDevelop Projects\game\game\bin\Debug\game.pdb
+C:\Users\Fujitsu\Documents\SharpDevelop Projects\game\game\obj\Debug\game.exe
+C:\Users\Fujitsu\Documents\SharpDevelop Projects\game\game\obj\Debug\game.pdb
