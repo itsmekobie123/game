@@ -64,7 +64,7 @@ namespace console_app
 				Console.WriteLine("	           a project in our major subject Programming.");
 				Console.WriteLine("");
 				Console.WriteLine("                                  Submitted by:");
-				Console.WriteLine("                         Kobie Oracion & Jadee Mae Mallari");
+				Console.WriteLine("                            Kobie Oracion & Mae Mallari");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                             Press 'Enter' to go back");
@@ -125,14 +125,14 @@ namespace console_app
 			Console.WriteLine("                                   Select Genre: ");
 			Console.ForegroundColor = ConsoleColor.White;
 			Console.WriteLine("");
-			Console.WriteLine("                                 |  1. Action   |");
-			Console.WriteLine("                                 |  2. Anime    |");
-			Console.WriteLine("                                 |  3. Horror   |");
-			Console.WriteLine("                                 |  4. Romance  |");
-			Console.WriteLine("                                 |  5. Musical  |");
-			Console.WriteLine("                                 |  6. Comedy   |");
-			Console.WriteLine("                                 |  7. Random   |");
-			Console.WriteLine("                                 |  8. Exit     |");
+			Console.WriteLine("                                 |  1.       |");
+			Console.WriteLine("                                 |  2.       |");
+			Console.WriteLine("                                 |  3.       |");
+			Console.WriteLine("                                 |  4.       |");
+			Console.WriteLine("                                 |  5.       |");
+			Console.WriteLine("                                 |  6.       |");
+			Console.WriteLine("                                 |  7.       |");
+			Console.WriteLine("                                 |  8. Exit  |");
 			Console.WriteLine("");
 			Console.WriteLine("");
 			Console.WriteLine("            =======================================================");
@@ -151,7 +151,7 @@ namespace console_app
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.Yellow;
-				Console.WriteLine("                              Action Genre Category! ");
+				Console.WriteLine("                               Genre Category! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("                              Press 'Enter' to Play..");
@@ -176,7 +176,7 @@ namespace console_app
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.Yellow;
-				Console.WriteLine("                              Anime Genre Category! ");
+				Console.WriteLine("                               Genre Category! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("                              Press 'Enter' to Play..");
@@ -187,7 +187,7 @@ namespace console_app
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.ReadLine();
-				Anime();
+				();
 			}			
 			else if (choosegenre == 3)
 			{
@@ -201,7 +201,7 @@ namespace console_app
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.Yellow;
-				Console.WriteLine("                               Horror Genre Category! ");
+				Console.WriteLine("                                Genre Category! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("                              Press 'Enter' to Play..");
@@ -212,7 +212,7 @@ namespace console_app
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.ReadLine();
-				Horror();
+				();
 			}			
 			else if (choosegenre == 4)
 			{
@@ -226,7 +226,7 @@ namespace console_app
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.Yellow;
-				Console.WriteLine("                               Romance Genre Category! ");
+				Console.WriteLine("                                Genre Category! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("                              Press 'Enter' to Play..");
@@ -237,7 +237,7 @@ namespace console_app
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.ReadLine();
-				Romance();
+				();
 			}
 			else if (choosegenre == 5)
 			{
@@ -251,7 +251,7 @@ namespace console_app
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.Yellow;
-				Console.WriteLine("                              Musical Genre Category! ");
+				Console.WriteLine("                               Genre Category! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("                              Press 'Enter' to Play..");
@@ -262,7 +262,7 @@ namespace console_app
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.ReadLine();
-				Musical();
+				();
 			}
 			else if (choosegenre == 6)
 			{
@@ -276,7 +276,7 @@ namespace console_app
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.Yellow;
-				Console.WriteLine("                               Comedy Genre Category! ");
+				Console.WriteLine("                                Genre Category! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("                              Press 'Enter' to Play..");
@@ -287,7 +287,7 @@ namespace console_app
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.ReadLine();
-				Comedy();
+				();
 			}			
 			else if (choosegenre == 7)
 			{
@@ -301,7 +301,7 @@ namespace console_app
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.Yellow;
-				Console.WriteLine("                               Random Genre Category! ");
+				Console.WriteLine("                                Genre Category! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("                              Press 'Enter' to Play..");
@@ -312,11 +312,11 @@ namespace console_app
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.ReadLine();
-				Random();
+				();
 			}
 			
 		}
-			public static void Action()
+			public static void ()
 			{
 				Console.ForegroundColor = ConsoleColor.White;
 				string ans;
@@ -332,15 +332,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            1.The heroes are fighting a powerful being to stop him ");
-				Console.WriteLine("            from collecting some magical stones that can destroy ");
-				Console.WriteLine("                               half the universe.");
+				Console.WriteLine("            1.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Avengers: Infinity War" || ans == "avengers: infinity war" || ans == "Infinity War" || ans == "infinity war")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -359,8 +359,8 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                 Infinity War");
-				Console.ForegroundColor = ConsoleColor.White;
+				Console.WriteLine("                                   answer");
+				Console.ForegroundColor = ConsoleColor.White;  
 				Console.ReadLine();
 				life--;
 				}
@@ -382,15 +382,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            2.A rich billionare from Gotham City that fights crime ");
-				Console.WriteLine("                             and serves justice. ");
+				Console.WriteLine("            2.");
+				Console.WriteLine(" ");
 				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Batman" || ans == "batman")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -409,7 +409,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                    Batman");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -431,15 +431,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            3. An ex special forces that turned into mutant by a ");
-				Console.WriteLine("            rouge experement which gives him the ability to heal. ");
+				Console.WriteLine("            3.");
+				Console.WriteLine(" ");
 				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Deadpool" || ans == "deadpool")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -458,7 +458,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                  Deadpool");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -480,15 +480,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            4. A time traveling machine that has a mission to kill  ");
-				Console.WriteLine("                                a certain person.");
+				Console.WriteLine("            4.  ");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Terminator" || ans == "terminator")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -507,7 +507,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                 Terminator");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -529,15 +529,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            5. He comes from the planet Krypton as he was sent to ");
-				Console.WriteLine("            earth by his parents to save him from the destruction ");
-				Console.WriteLine("                                 of their planet.");
+				Console.WriteLine("            5. ");
+				Console.WriteLine(");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Superman" || ans == "superman")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -556,7 +556,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                   Superman");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();;
 				life--;
@@ -579,7 +579,7 @@ namespace console_app
 				Console.WriteLine("                                 Congratulations! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
-				Console.WriteLine("                        You finished the Action Genre!");
+				Console.WriteLine("                        You finished the  Genre!");
 				Console.WriteLine("                          with the total score of "+score+"");
 				Console.WriteLine("");
 				Console.WriteLine("                           Press 'Enter' to Continue..");
@@ -589,7 +589,7 @@ namespace console_app
 				Console.ReadLine();
 				Genre();
 			}
-			public static void Anime()
+			public static void ()
 			{
 				Console.ForegroundColor = ConsoleColor.White;
 				string ans;
@@ -605,14 +605,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            1.The story of Saitama, a hero that does it just for ");
-				Console.WriteLine("              fun & can defeat his enemies with a single punch. ");
+				Console.WriteLine("            1.");
+				Console.WriteLine(" ");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "One Punch Man" || ans == "one punch man")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -631,7 +631,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                One Punch Man");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();;
 				life--;
@@ -654,15 +654,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            2.The story of a kid who is the son of the 4th Hokage ");
-				Console.WriteLine("            Minato Uzumaki who dreams to be a hokage himself in ");
-				Console.WriteLine("                                   the future");
+				Console.WriteLine("            2.");
+				Console.WriteLine(" ");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Naruto" || ans == "naruto" || ans == "Naruto Shipudden" || ans == "Naruto Shipudden")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -681,7 +681,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                   Naruto");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();;
 				life--;
@@ -703,15 +703,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            3.This is a story about a pirate named Monkey D. Luffy  ");
-				Console.WriteLine("                who wants to be the King of the Pirates someday. ");
+				Console.WriteLine("            3.");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "One Piece" || ans == "one piece")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -730,7 +730,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                  One Piece");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();;
 				life--;
@@ -752,15 +752,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            4. Tokyo is haunted by mysterious ghouls who are");
-				Console.WriteLine("            devouring humans. People are gripped by the fear of");
-				Console.WriteLine("             hese ghouls whose identities are masked inmystery.");
+				Console.WriteLine("            4.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Tokyo Ghoul" || ans == "tokyo ghoul")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -779,7 +779,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                 Tokyo Ghoul");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();;
 				life--;
@@ -801,15 +801,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            5. Hinata Shouyou, a short middle school student, gained  ");
-				Console.WriteLine("              a sudden love of volleyball after watching a national");
-				Console.WriteLine("                           championship match on TV.");
+				Console.WriteLine("            5. ");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Haikyuu" || ans == "haikyuu")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -828,7 +828,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                   Haikyuu");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -850,7 +850,7 @@ namespace console_app
 				Console.WriteLine("                                 Congratulations! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
-				Console.WriteLine("                         You finished the Anime Genre!");
+				Console.WriteLine("                         You finished the  Genre!");
 				Console.WriteLine("                          with the total score of "+score+"");
 				Console.WriteLine("");
 				Console.WriteLine("                          Press 'Enter' to Continue..");
@@ -861,7 +861,7 @@ namespace console_app
 				Genre();
 			}
 			
-			public static void Horror()
+			public static void ()
 			{
 				Console.ForegroundColor = ConsoleColor.White;
 				string ans;
@@ -877,15 +877,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            1.A young woman is involuntarily committed to a mental ");
-				Console.WriteLine("             institution, where she is confronted by her greatest ");
-				Console.WriteLine("              fear--but is it real or a product of her delusion?");
+				Console.WriteLine("            1.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Unsane" || ans == "unsane")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -904,7 +904,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                   Unsane");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -927,14 +927,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("                       2.If they hear you, they hunt you. ");
+				Console.WriteLine("                       2. ");
 				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == " A Quiet Place" || ans == "a quiet place" || ans == "A QUEIT PLACE")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -953,7 +953,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                A Quiet Place");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -975,15 +975,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            3. A violent teen and three others kidnap a young nurse ");
-				Console.WriteLine("                  while escaping from a Texas mental institution.");
+				Console.WriteLine("            3. ");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Leatherface" || ans == "leatherface")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1002,7 +1002,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                 Leatherface");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1024,14 +1024,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            4.After taking a wrong turn on the highway, a young couple ");
-				Console.WriteLine("            decide to stop at a roadside diner for food and relaxation.");
+				Console.WriteLine("            4.");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "The Farm" || ans == "the farm" || ans == "THE FARM")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1050,7 +1050,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                   The Farm");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1072,15 +1072,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            5.A group of their college friends travel to Mexico for  ");
-				Console.WriteLine("            one last getaway before graduation. While there, a stranger ");
-				Console.WriteLine("               convinces one of the students to play a harmless game.");
+				Console.WriteLine("            5.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Truth or Dare" || ans == "truth or dare" || ans == "TRUTH OR DARE")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -1099,7 +1099,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                Truth or Dare");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1121,7 +1121,7 @@ namespace console_app
 				Console.WriteLine("                                 Congratulations! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
-				Console.WriteLine("                         You finished the Horror Genre!");
+				Console.WriteLine("                         You finished the  Genre!");
 				Console.WriteLine("                          with the total score of "+score+"");
 				Console.WriteLine("");
 				Console.WriteLine("                          Press 'Enter' to Continue..");
@@ -1132,7 +1132,7 @@ namespace console_app
 				Genre();
 			}
 			
-			public static void Romance()
+			public static void ()
 			{
 				Console.ForegroundColor = ConsoleColor.White;
 				string ans;
@@ -1148,14 +1148,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            1.A couple with a tumultuous romantic past finds married ");
-				Console.WriteLine("                          life to be just as difficult.");
+				Console.WriteLine("            1.");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "A Second Chance" || ans == "a second chance" || ans == "A SECOND CHANCE")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1174,7 +1174,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                A Second Chance");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1197,15 +1197,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            2.A poor young woman becomes a personal maid for a rich ");
-				Console.WriteLine("            and handsome young man. The two do not get along at first, ");
-				Console.WriteLine("                       but as their lives become entangled.");
+				Console.WriteLine("            2.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Diary ng Panget" || ans == "diary ng panget" || ans == "DIARY NG PANGET")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1224,7 +1224,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                               Diary ng Panget");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1246,14 +1246,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            3.As enigmatic as he is rich and powerful, finds himself  ");
-				Console.WriteLine("              strangely drawn to her.Though sexually inexperienced.");
+				Console.WriteLine("            3.");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Fifty Shades of Grey" || ans == "fifty shades of grey")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1272,7 +1272,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                             Fifty Shades of Grey");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1294,15 +1294,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            4.A high school student finds herself face-to-face with ");
-				Console.WriteLine("            her long-term crush when she signs up to run a kissing ");
-				Console.WriteLine("                         booth at the spring carnival.");
+				Console.WriteLine("            4.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "The Kissing Booth" || ans == "the kissing booth" || ans == "THE KISSING BOOTH")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1321,7 +1321,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                              The Kissing Booth");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1343,15 +1343,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            5.A woman struggling to meet airline baggage requirements  ");
-				Console.WriteLine("            meets a man who comes to her aid. They form a friendship ");
-				Console.WriteLine("                    that helps them mend each other's hearts. ");
+				Console.WriteLine("            5.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "That Thing Called Tadhana" || ans == "that thing called tadhana")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -1370,7 +1370,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                           That Thing Called Tadhana");
+				Console.WriteLine("                                  answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1392,7 +1392,7 @@ namespace console_app
 				Console.WriteLine("                                 Congratulations! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
-				Console.WriteLine("                         You finished the Romance Genre!");
+				Console.WriteLine("                         You finished the  Genre!");
 				Console.WriteLine("                          with the total score of "+score+"");
 				Console.WriteLine("");
 				Console.WriteLine("                          Press 'Enter' to Continue..");
@@ -1403,7 +1403,7 @@ namespace console_app
 				Genre();
 			}
 			
-			public static void Comedy()
+			public static void ()
 			{
 				Console.ForegroundColor = ConsoleColor.White;
 				string ans;
@@ -1419,14 +1419,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            1.Kevin prompts Oz, Finch, Jim, and Kevin to pledge to no   ");
-				Console.WriteLine("                longer be virgins by their high school graduation. ");
+				Console.WriteLine("            1.");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "American Pie" || ans == "american pie" || ans == "AMERICAN PIE")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1445,7 +1445,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                American Pie");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1468,14 +1468,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            2. Beca reluctantly auditions by performing 'Cups (When");
-				Console.WriteLine("                      I'm Gone)', and joins the Bellas.  ");
+				Console.WriteLine("            2. ");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Pitch Perfect" || ans == "pitch perfect" || ans == "PITCH PERFECT")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1494,7 +1494,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                Pitch Perfect");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1516,9 +1516,9 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            3.One night, they get on the topic of sex and relationships.  ");
-				Console.WriteLine("             They come to the conclusion that sex should not come with   ");
-				Console.WriteLine("                         so many emotional attachments.");
+				Console.WriteLine("            3.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
@@ -1543,7 +1543,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                            Friends with Benefits");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1565,14 +1565,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            4.While fighting with and feeding on a human scavenger party,   ");
-				Console.WriteLine("                  R meets Julie and feels an urge to protect her.  ");
+				Console.WriteLine("            4.");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Warm Bodies" || ans == "warm bodies" || ans == "WARM BODIES")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1591,7 +1591,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                 Warm Bodies");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1613,8 +1613,8 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            5. Kelly and Mac are settling down in a quiet neighborhood    ");
-				Console.WriteLine("                 with their newborn child, until the frat brothers ");
+				Console.WriteLine("            5.");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
@@ -1639,7 +1639,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                  Neighbors");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1661,7 +1661,7 @@ namespace console_app
 				Console.WriteLine("                                 Congratulations! ");
 				Console.WriteLine("");
 				Console.ForegroundColor = ConsoleColor.White;
-				Console.WriteLine("                         You finished the Comedy Genre!");
+				Console.WriteLine("                         You finished the  Genre!");
 				Console.WriteLine("                          with the total score of "+score+"");
 				Console.WriteLine("");
 				Console.WriteLine("                          Press 'Enter' to Continue..");
@@ -1672,7 +1672,7 @@ namespace console_app
 				Genre();
 			}
 			
-			public static void Musical()
+			public static void ()
 			{
 				Console.ForegroundColor = ConsoleColor.White;
 				string ans;
@@ -1688,15 +1688,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            1.Thirsty for innovation and hungry for success, the son  ");
-				Console.WriteLine("            of a tailor will manage to open a wax museum but will soon ");
-				Console.WriteLine("                     shift focus to the unique and peculiar.");
+				Console.WriteLine("            1.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "The Greatest Showman" || ans == "the greatest showman" || ans == "THE GREATEST SHOWMAN")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1715,7 +1715,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                            The Greatest Showman");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1738,15 +1738,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            2. The only way to heal the island is to persuade Maui to  ");
-				Console.WriteLine("               return Te Fiti's heart, so Moana sets off on an epic  ");
-				Console.WriteLine("                          journey across the Pacific.");
+				Console.WriteLine("            2. ");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Moana" || ans == "moana" || ans == "MOANA")
+				if (ans == ")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1765,7 +1765,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                    Moana");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1787,14 +1787,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            3.Her mounting emotions trigger the magic, accidentally ");
-				Console.WriteLine("               setting off an eternal winter that she can't stop.  ");
+				Console.WriteLine("            3.");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Frozen" || ans == "frozen")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1813,7 +1813,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                   Frozen");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1835,15 +1835,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            4.One day, the bandit Flynn Ryder scales the tower and is  ");
-				Console.WriteLine("             taken captive by Rapunzel. Rapunzel strikes a deal with  ");
-				Console.WriteLine("                              the charming thief.");
+				Console.WriteLine("            4.");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Tangled" || ans == "tangled" || ans == "TANGLED")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1862,7 +1862,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                   Tangled");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -1884,15 +1884,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            5. A young prince, imprisoned in the form of a beast, can   ");
-				Console.WriteLine("                  be freed only by true love. What may be his only  ");
-				Console.WriteLine("                    opportunity arrives when he meets Belle. ");
+				Console.WriteLine("            5. ");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Beauty and the Beast" || ans == "beauty and the beast")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -1911,7 +1911,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                             Beauty and the Beast");
+				Console.WriteLine("                                   answer ");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				}
@@ -1943,7 +1943,7 @@ namespace console_app
 				Genre();
 			}
 			
-			public static void Random()
+			public static void ()
 			{
 				Console.ForegroundColor = ConsoleColor.White;
 				string ans;
@@ -1959,8 +1959,8 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            1.A camgirl has her principles, until a mysterious woman  ");
-				Console.WriteLine("                who looks just like her takes over her channel.");
+				Console.WriteLine("            1. ");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
@@ -1985,7 +1985,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine(""); 
-				Console.WriteLine("                                     Cam");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -2008,15 +2008,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            2.A wedding planner has had a long string of boyfriends.  ");
-				Console.WriteLine("                  Unfortunately for her, they've all been gay.");
+				Console.WriteLine("            2. ");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Bakit Lahat ng Gwapo may Boyfriend?" || ans == "bakit lahat ng gwapo may boyfriend?")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -2035,7 +2035,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                     Bakit Lahat ng Gwapo may Boyfriend?");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -2057,15 +2057,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            3.Detective investigates an explosion that occurs on the");
-				Console.WriteLine("            opening day of a large Tokyo resort and convention center.");
+				Console.WriteLine("            3.");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Detective Conan" || ans == "detective conan" || ans == "DETECTIVE CONAN")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -2084,7 +2084,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                               Detective Conan");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -2106,15 +2106,15 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            4. In 19th-century France, who for decades has been hunted ");
-				Console.WriteLine("            by the ruthless policeman after breaking parole, agrees to ");
-				Console.WriteLine("                       care for a factory worker's daughter.");
+				Console.WriteLine("            4. ");
+				Console.WriteLine("");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Les Miserables" || ans == "les miserables" || ans == "LES MISERABLES")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -2133,7 +2133,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                               Les Miserables");
+				Console.WriteLine("                                   answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;
@@ -2155,14 +2155,14 @@ namespace console_app
 				Console.Write("\t\t\tScore:"+score+"\t\t\tLife:"+life+"\n\n");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("");
-				Console.WriteLine("            5. Must retrieve the legendary Trident of Atlan and embrace  ");
-				Console.WriteLine("                       his destiny as protector of the deep. ");
+				Console.WriteLine("            5.   ");
+				Console.WriteLine("");
 				Console.WriteLine("");
 				Console.WriteLine("            =======================================================");
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Aquaman" || ans == "aquaman" || ans == "AQUAMAN")
+				if (ans == "")
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -2181,7 +2181,7 @@ namespace console_app
 				Console.WriteLine("                            The correct answer is:");
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
-				Console.WriteLine("                                    Aquaman");
+				Console.WriteLine("                                    answer");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.ReadLine();
 				life--;

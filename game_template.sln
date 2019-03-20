@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "game_template", "game_template\game_template.csproj", "{CBB9EF59-09D4-4A69-8B0C-B0679E3A1CED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBB9EF59-09D4-4A69-8B0C-B0679E3A1CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB9EF59-09D4-4A69-8B0C-B0679E3A1CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB9EF59-09D4-4A69-8B0C-B0679E3A1CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB9EF59-09D4-4A69-8B0C-B0679E3A1CED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
