@@ -314,6 +314,38 @@ namespace console_app
 				Console.ReadLine();
 				Random();
 			}
+			else if (choosegenre == 8)
+			{
+			Console.ForegroundColor = ConsoleColor.White;	
+			int lastexit;
+			Console.Clear();
+			Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("            =======================================================");
+			Console.WriteLine("");
+			Console.ForegroundColor = ConsoleColor.Red;
+			Console.WriteLine("                          Do you really want to exit? ");
+			Console.ForegroundColor = ConsoleColor.White;
+			Console.WriteLine("");
+			Console.WriteLine("                                  |  1. Yes  |");
+			Console.WriteLine("                                  |  2. No   |");
+			Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("            =======================================================");
+			Console.Write("\t\t\t\tSelect Your Choice: ");
+			Console.Write("\t\t\t\t\t\t\t\t\t ");
+			lastexit = Convert.ToInt32(Console.ReadLine());
+			if (lastexit == 1)
+			{
+				Environment.Exit(0);
+			}
+			
+			}
+			
 			
 		}
 			public static void Action()
@@ -340,7 +372,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Avengers: Infinity War" || ans == "avengers: infinity war" || ans == "Infinity War" || ans == "infinity war")
+				if (String.Compare(ans, "infinity war", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -390,7 +422,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Batman" || ans == "batman")
+				if (String.Compare(ans, "batman", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -439,7 +471,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Deadpool" || ans == "deadpool")
+				if (String.Compare(ans, "deadpool", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -488,7 +520,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Terminator" || ans == "terminator")
+				if (String.Compare(ans, "terminator", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -537,7 +569,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Superman" || ans == "superman")
+				if (String.Compare(ans, "superman", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -612,7 +644,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "One Punch Man" || ans == "one punch man")
+				if (String.Compare(ans, "one punch man", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -662,7 +694,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Naruto" || ans == "naruto" || ans == "Naruto Shipudden" || ans == "Naruto Shipudden")
+				if (String.Compare(ans, "naruto", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -711,7 +743,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "One Piece" || ans == "one piece")
+				if (String.Compare(ans, "one piece", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -760,7 +792,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Tokyo Ghoul" || ans == "tokyo ghoul")
+				if (String.Compare(ans, "tokyo ghoul", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -809,7 +841,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Haikyuu" || ans == "haikyuu")
+				if (String.Compare(ans, "haikyuu", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -885,7 +917,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Unsane" || ans == "unsane")
+				if (String.Compare(ans, "unsane", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -934,7 +966,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == " A Quiet Place" || ans == "a quiet place" || ans == "A QUEIT PLACE")
+				if (String.Compare(ans, "a quiet place", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -983,7 +1015,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Leatherface" || ans == "leatherface")
+				if (String.Compare(ans, "leatherface", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1031,7 +1063,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "The Farm" || ans == "the farm" || ans == "THE FARM")
+				if (String.Compare(ans, "the farm", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1080,7 +1112,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Truth or Dare" || ans == "truth or dare" || ans == "TRUTH OR DARE")
+				if (String.Compare(ans, "truth or dare", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -1155,7 +1187,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "A Second Chance" || ans == "a second chance" || ans == "A SECOND CHANCE")
+				if (String.Compare(ans, "a second chance", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1205,7 +1237,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Diary ng Panget" || ans == "diary ng panget" || ans == "DIARY NG PANGET")
+				if (String.Compare(ans, "diary ng panget", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1253,7 +1285,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Fifty Shades of Grey" || ans == "fifty shades of grey")
+				if (String.Compare(ans, "fifthy shades of grey", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1302,7 +1334,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "The Kissing Booth" || ans == "the kissing booth" || ans == "THE KISSING BOOTH")
+				if (String.Compare(ans, "the kissing booth", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1351,7 +1383,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "That Thing Called Tadhana" || ans == "that thing called tadhana")
+				if (String.Compare(ans, "that thing called tadhana", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -1426,7 +1458,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "American Pie" || ans == "american pie" || ans == "AMERICAN PIE")
+				if (String.Compare(ans, "american pie", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1475,7 +1507,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Pitch Perfect" || ans == "pitch perfect" || ans == "PITCH PERFECT")
+				if (String.Compare(ans, "pitch perfect", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1524,7 +1556,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Friends with Benefits" || ans == "friends with benefits")
+				if (String.Compare(ans, "friends with benefits", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1572,7 +1604,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Warm Bodies" || ans == "warm bodies" || ans == "WARM BODIES")
+				if (String.Compare(ans, "warm bodies", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1620,7 +1652,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Neighbors" || ans == "neighbors")
+				if (String.Compare(ans, "neighbors", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -1696,7 +1728,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "The Greatest Showman" || ans == "the greatest showman" || ans == "THE GREATEST SHOWMAN")
+				if (String.Compare(ans, "the greatest showman", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1746,7 +1778,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Moana" || ans == "moana" || ans == "MOANA")
+				if (String.Compare(ans, "moana", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1794,7 +1826,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Frozen" || ans == "frozen")
+				if (String.Compare(ans, "frozen", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1843,7 +1875,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Tangled" || ans == "tangled" || ans == "TANGLED")
+				if (String.Compare(ans, "tangled", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -1892,7 +1924,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Beauty and the Beast" || ans == "beauty and the beast")
+				if (String.Compare(ans, "beauty and the beast", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
@@ -1966,7 +1998,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Cam" || ans == "cam")
+				if (String.Compare(ans, "cam", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -2016,7 +2048,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Bakit Lahat ng Gwapo may Boyfriend?" || ans == "bakit lahat ng gwapo may boyfriend?")
+				if (String.Compare(ans, "bakit lahat ng gwapo may boyfriend", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -2065,7 +2097,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Detective Conan" || ans == "detective conan" || ans == "DETECTIVE CONAN")
+				if (String.Compare(ans, "detective conan") == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -2114,7 +2146,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Les Miserables" || ans == "les miserables" || ans == "LES MISERABLES")
+				if (String.Compare(ans, "les miserables", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");
@@ -2162,7 +2194,7 @@ namespace console_app
 				Console.WriteLine("                              Enter Your Answer:");
 				Console.Write("     \t\t\t\t ");
 				ans = Console.ReadLine();
-				if (ans == "Aquaman" || ans == "aquaman" || ans == "AQUAMAN")
+				if (String.Compare(ans, "aquaman", true) == 0)
 				{
 				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("");	
